@@ -1,0 +1,172 @@
+$main-color: #131330;
+$second-color: #3671fe;
+$third-color: #c1c1c1;
+
+$main-font: 'Poppins', sans-serif;
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.contact {
+    position: relative;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+.register-section {
+    margin: auto;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    height: auto;
+    width: 50%;
+
+}
+.register-section .contact-title{
+    font-size: 40px;
+    font-family: $main-font;
+    font-weight: 600;
+    color: $main-color;
+    letter-spacing: 0.01em;
+    line-height: 40px;
+    padding: 16px 0;
+}
+.register-section .contact-subtitle{
+    font-size: 18px;
+    font-family: $main-font;
+    font-weight: 500;
+    color: $third-color;
+    letter-spacing: 0.01em;
+    line-height: 18px;
+    padding: 0 0 20px 0;
+}
+.google {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 460px;
+    border-radius: 50px;
+    border: 2px solid $third-color;
+    background-color: white;
+    margin: 40px 0 8px 0;
+    
+}
+.google .fab{
+    color: red;
+    font-size: 28px;
+    width: 460px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.google h2{
+    margin: 0 10px;
+    font-size: 18px;
+    font-family: $main-font;
+    color: $main-color;
+    font-weight: $main-color;
+    letter-spacing: 0.01em;
+    font-style: normal;
+}
+.facebook {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 460px;
+    border-radius: 50px;
+    border: 2px solid $third-color;
+    background-color: white;
+    margin: 8px 0 12px 0;
+    
+}
+.facebook .fab{
+    color: $second-color;
+    font-size: 28px;
+    width: 460px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.facebook h2 {
+    margin: 0 10px;
+    font-size: 18px;
+    font-family: $main-font;
+    color: $main-color;
+    font-weight: $main-color;
+    letter-spacing: 0.01em;
+    font-style: normal;
+}
+.mail-option{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: $third-color;
+    font-style: normal;
+    margin: 12px 0;
+    width: 460px;
+}
+/*.mail-option::after{
+    content: '';
+    flex: 1;
+    margin-left: 1rem;
+    height: 1px;
+    background-color: #000;
+} */
+form input{
+    height: 60px;
+    width: 460px;
+    border: 2px solid #efefef;
+    border-radius: 16px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: $main-font;
+    letter-spacing: 0.01em;
+    color: $third-color;
+    padding: 0 32px;
+    margin: 8px 0 ;
+}
+form button {
+    height: 60px;
+    width: 460px;
+    border-radius: 50px;
+    background-color: $second-color;
+    font-family: $main-font;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    color: white;
+    margin: 40px 0;
+}
+div img{
+    height: 100vh;
+    width: auto; 
+}
